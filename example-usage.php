@@ -84,9 +84,9 @@ if (isset($_POST['send'])) {
 <body>
     <center>
             <form method="post">
-                <label>Número de contas</label>
+                <label>Number of Accounts</label>
                 <input name="accounts">
-                <button name="send">Criar</button>
+                <button name="send">Create</button>
             </form>
     </center>
 </body>
