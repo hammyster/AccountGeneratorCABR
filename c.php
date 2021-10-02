@@ -1,4 +1,14 @@
 <?php
+
+/**
+ *
+ * Ferramenta para criação de várias contas no game Combat Arms;
+ * Compatível com o Combat Arms BR <combatarms.com.br>;
+ * 
+ * @author     Hammy
+ * @version    1.0 $
+ */
+
 function randUser($length = 10)
 {
     $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
