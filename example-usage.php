@@ -1,4 +1,5 @@
 <?php
+session_start();
 
 /**
  *
@@ -9,7 +10,6 @@
  * @version    1.0 $
  */
 
-session_start();
 function randUser($length = 10)
 {
     $characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ';
